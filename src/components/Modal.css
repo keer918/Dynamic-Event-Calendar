@@ -1,0 +1,147 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background:  #F5EFFF;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content h3 {
+    margin-top: 0;
+}
+
+.event-list {
+    margin-bottom: 20px;
+}
+
+.event-item {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
+
+.event-item strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+textarea, input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-actions button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-actions button:first-child {
+    background-color:#69247C;
+    color:  #F5EFFF;
+}
+
+.modal-actions button:first-child:hover {
+    background-color: #69247C;
+}
+
+.modal-actions button:last-child {
+    background-color: #aaa;
+    color: white;
+}
+
+.modal-actions button:last-child:hover {
+    background-color: #888;
+}
+/* Modal.css */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #F5EFFF;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+  }
+  
+  .event-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #69247C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #69247C;
+  }
+  
+  .events-list {
+    margin-top: 15px;
+  }
+  
+  .event-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  .close-btn {
+    margin-top: 20px;
+    background-color: #888;
+    color: white;
+  }
+  
